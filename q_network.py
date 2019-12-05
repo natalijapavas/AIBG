@@ -1,8 +1,8 @@
 import os
 import torch as T
-import torch.nn as nn
-import torch.nn.functional as F
-import torch.optim as optim
+import torch.nn as nn           #neural networks
+import torch.nn.functional as F     #layers activation functions
+import torch.optim as optim         #optimizer (Adam,gradient)
 import numpy as np
 
 class DeepQNetwork(nn.Module):
@@ -11,18 +11,21 @@ class DeepQNetwork(nn.Module):
         self.checkpoint_dir = chkpt_dir
         self.checkpoint_file = os.path.join(self.checkpoint_dir, name)
 
-        self.conv1 = nn.Conv2d(input_dims[0], 32, 8, stride=4)
+        self.conv1 = nn.Conv2d(input_dims[0], 32, 8, stride=4)      #2 dimential conv layer
+                                                                    #from input_dims[0] to 32 channels
+                                                                    #kernel size is 4
         self.conv2 = nn.Conv2d(32, 64, 4, stride=2)
         self.conv3 = nn.Conv2d(64, 64, 3, stride=1)
 
         fc_input_dims = self.calculate_conv_output_dims(input_dims)
 
-        self.fc1 = nn.Linear(fc_input_dims, 512)
+        self.fc1 = nn.Linear(fc_input_dims, 512)            #fully connected layer
+                                                            # from fc_input dims to 512 units
         self.fc2 = nn.Linear(512, n_actions)
 
-        self.optimizer = optim.RMSprop(self.parameters(), lr=lr)
+        self.optimizer = optim.RMSprop(self.parameters(), lr=lr)            #create optimizer
 
-        self.loss = nn.MSELoss()
+        self.loss = nn.MSELoss()                            #Loss function -
         self.device = T.device('cuda:0' if T.cuda.is_available() else 'cpu')
         self.to(self.device)
 
@@ -70,8 +73,8 @@ class DuelingDeepQNetwork(nn.Module):
         self.V = nn.Linear(512, 1)
         self.A = nn.Linear(512, n_actions)
 
-        self.optimizer = optim.RMSprop(self.parameters(), lr=lr)
-        self.loss = nn.MSELoss()
+        self.optimizer = optim.RMSprop(self.parameters(), lr=lr)        #create optimizer
+        self.loss = nn.MSELoss()                                        #loss function
         self.device = T.device('cuda:0' if T.cuda.is_available() else 'cpu')
         self.to(self.device)
 
