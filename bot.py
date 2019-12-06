@@ -16,11 +16,13 @@ DROP = ['dsh']
 GAME_ID = bh.GAME_ID
 PLAYER_ID = 1
 print('[+] bot is spawned')
-bh.join_game(GAME_ID, PLAYER_ID)
+last_game_state = bh.join_game(GAME_ID, PLAYER_ID)
 print('[+] bot joined game {}'.format(GAME_ID))
 
 for i in range(10):
-    action = random.choice(MOVE)
+    action = calc_next_action(last_game_state)
+    if isValid(last_game_state, action):
+        last_game_state = bh.do_action(PLAYER_ID, GAME_ID, action)
     print("[+] bot is doing {}".format(action))
     last_game_state = bh.do_action(PLAYER_ID, GAME_ID, action)
 

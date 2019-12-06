@@ -6,7 +6,7 @@ URL = 'http://127.0.0.1:9080'
 GAME_ID = 1
 POSX = 0
 POSY = 0
-
+PLAYER_ID=2
 def start_game(playerId = PLAYERID):
     path = '/train/random'
     data = {'playerId': playerId}
@@ -47,16 +47,16 @@ def move(x,y):
 
     if abs(POSX - x) >= abs(POSY - y):
         if POSX - x > 0:
-            do_action(2,10,'a')
+            return 'a'
         else:
-            do_action(2,10,'d')
+            return 'd'
     else:
         if POSY - y > 0:
-            do_action(2,10,'w')
+            return 'w'
         else:
-            do_action(2,10,'s')
+            return 's'
 
-    return abs(POSX - x) + abs(POSY - y)
+ 
 
 def obs_map(json_res):
     tiles = json_res['result']['map']['tiles']
@@ -67,9 +67,12 @@ def obs_map(json_res):
         for j in range(json_res['result']['map']['width']):
             if tiles[i][j]['item'] is 'null':
                 row[j] = 0
-            else
+            else:
                 row[j] = 1
         map.append(row)
 
     return map
 
+
+def isValidMove(gameState, action):
+    map=obs_map(gameState)
