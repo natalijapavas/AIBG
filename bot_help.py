@@ -5,8 +5,10 @@ import json
 
 URL = 'http://127.0.0.1:9080'
 GAME_ID = 1
+POSX = 0
+POSY = 0
 
-def start_game(playerId):
+def start_game(playerId = PLAYERID):
     path = '/train/random'
     data = {'playerId': playerId}
     print(URL + path)
@@ -37,7 +39,26 @@ def create_game(gameId,playerOne,playerTwo,mapConFig):
     r = requests.get(URL+path, params=data)
     return r.json()
 
+def move(x,y):
+    global POSX
+    global POSY
 
+    if POSX is x and POSY is y:
+        return 0
+
+    if abs(POSX - x) >= abs(POSY - y):
+	if POSX - x > 0:
+            do_action(2,10,'a')
+	else:
+            do_action(2,10,'d')
+    else:
+        if POSY - y > 0:
+            do_action(2,10,'w')
+        else:
+            do_action(2,10,'s')
+
+    return abs(POSX - x) + abs(POSY - y)
+	
 res = start_game('13')
 create_game(10,1,2,'mapConfig')
 input('game started, press any key...')
