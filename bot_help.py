@@ -96,6 +96,58 @@ def find(json_res, item):
 
    return x,y
 
+def build(json_res):
+    wx,wy=find(json_res,'w')
+    dist=move(wx,wy)
+    while dist is not 1:
+        dist = move(wx,wy)
+
+    w=0
+    while w is not 4:
+        if wx - POSX > 0:
+            res=do_action(2,10,'trd')
+        if wx - POSX < 0:
+            res=do_action(2,10,'tra')
+        if wy - POSY > 0:
+            res=do_action(2,10,'trs')
+        if wy - POSY < 0:
+            res=do_action(2,10,'trw')
+        w=w+1
+
+    sx,sy=find(res,'s')
+    dist2=move(sx,sy)
+
+    while dist2 is not 1:
+          dist2 = move(sx,sy)
+
+    if sx - POSX > 0:
+        do_action(2,10,'trd')
+    if sx - POSX < 0:
+        do_action(2,10,'tra')
+    if sy - POSY > 0:
+        do_action(2,10,'trs')
+    if sy - POSY < 0:
+        do_action(2,10,'trw')
+
+    do_action(2,10,'bha')
+
+    s=0
+    while s is not 3:
+        if sx - POSX > 0:
+            do_action(2,10,'trd')
+            s=s+1
+        if sx - POSX < 0:
+            do_action(2,10,'tra')
+            s=s+1
+        if sy - POSY > 0:
+            do_action(2,10,'trs')
+            s=s+1
+        if sy - POSY < 0:
+            do_action(2,10,'trw')
+            s=s+1
+
+    return do_action(2,10,'bfa')
+
 res = start_game('13')
 create_game(10,1,2,'mapConfig')
 input('game started, press any key...')
