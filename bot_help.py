@@ -58,7 +58,22 @@ def move(x,y):
             do_action(2,10,'s')
 
     return abs(POSX - x) + abs(POSY - y)
-	
+
+def obs_map(json_res):
+    tiles = json_res['result']['map']['tiles']
+    map = list()
+
+    for i in range(json_res['result']['map']['height']):
+        row = list()
+        for j in range(json_res['result']['map']['width']):
+            if tiles[i][j]['item'] is 'null':
+                row[j] = 0
+            else
+                row[j] = 1
+        map.append(row)
+
+    return map
+
 res = start_game('13')
 create_game(10,1,2,'mapConfig')
 input('game started, press any key...')
