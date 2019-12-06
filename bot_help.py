@@ -67,7 +67,7 @@ def obs_map(json_res):
         for j in range(json_res['result']['map']['width']):
             if tiles[i][j]['item'] is 'null':
                 row[j] = 0
-            else
+            else:
                 row[j] = 1
         map.append(row)
 
