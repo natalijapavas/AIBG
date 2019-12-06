@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd58f99e-23b6-458e-ae2b-85364b75b49f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/human_play.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/start_game.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot_help.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot_help.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,18 +64,22 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="100" y="207" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575561717906">
+    <state x="100" y="207" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575669017635">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="100" y="207" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1575561717906" />
+    <state x="100" y="207" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1575669017635" />
     <state x="776" y="311" width="424" height="484" key="FileChooserDialogImpl" timestamp="1575390083343">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="776" y="311" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1575390083343" />
-    <state x="482" y="188" key="SettingsEditor" timestamp="1575561731078">
+    <state x="397" y="262" width="360" height="576" key="RollbackChangesDialog" timestamp="1575667175680">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="482" y="188" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1575561731078" />
+    <state x="397" y="262" width="360" height="576" key="RollbackChangesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1575667175680" />
+    <state x="482" y="188" key="SettingsEditor" timestamp="1575665286679">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="482" y="188" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1575665286679" />
     <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1575383063183">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
