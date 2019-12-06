@@ -101,6 +101,9 @@ def find(json_res, item):
     return x, y
 
 def build(json_res):
+    # Izmeni da vracas stringove umesto da zoves do_action
+    # Nemoj da zoves do_action iz pod funkcija odatle!!1111!! x
+    # Prebaci ovu funkciju u bot.py
     wx,wy=find(json_res,'w')
     dist=move(wx,wy)
     while dist is not 1:
@@ -122,7 +125,7 @@ def build(json_res):
     dist2=move(sx,sy)
 
     while dist2 is not 1:
-          dist2 = move(sx,sy)
+        dist2 = move(sx,sy)
 
     if sx - POSX > 0:
         do_action(2,10,'trd')
