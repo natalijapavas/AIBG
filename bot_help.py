@@ -74,6 +74,20 @@ def obs_map(json_res):
 
     return map
 
+def find_wood(json_res):
+    tiles = json_res['result']['map']['tiles']
+    x = 1000
+    y = 1000
+
+    for i in range(json_res['result']['map']['height']):
+        for j in range(json_res['result']['map']['width']):
+            if tiles[i][j]['item']['itemType'] is 'WOOD_SHOP':
+                if abs(POSX-x)+abs(POSY-y) > abs(POSX-i)+abs(POSY-j):
+                    x=i
+                    y=j
+
+   return x,y
+
 res = start_game('13')
 create_game(10,1,2,'mapConfig')
 input('game started, press any key...')
