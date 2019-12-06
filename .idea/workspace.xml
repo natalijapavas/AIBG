@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd58f99e-23b6-458e-ae2b-85364b75b49f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/human_play.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/start_game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bot_help.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot_help.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/q_network.py" beforeDir="false" afterPath="$PROJECT_DIR$/q_network.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,10 +64,14 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="100" y="207" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575669017635">
+    <state x="176" y="211" width="802" height="679" key="#Inspections" timestamp="1575671179969">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="100" y="207" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1575669017635" />
+    <state x="176" y="211" width="802" height="679" key="#Inspections/67.27.1853.1053@67.27.1853.1053" timestamp="1575671179969" />
+    <state x="100" y="207" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575670893005">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="100" y="207" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1575670893005" />
     <state x="776" y="311" width="424" height="484" key="FileChooserDialogImpl" timestamp="1575390083343">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>

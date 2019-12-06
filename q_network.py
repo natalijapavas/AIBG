@@ -4,97 +4,25 @@ import torch.nn as nn           #neural networks
 import torch.nn.functional as F     #layers activation functions
 import torch.optim as optim         #optimizer (Adam,gradient)
 import numpy as np
-
+import bot_help
 class DeepQNetwork(nn.Module):
-    def __init__(self, lr, n_actions, name, input_dims, fc1_dims,fc2_dims):
+    def __init__(self, rows=25, cols=20):
         super(DeepQNetwork, self).__init__()
-        self.input_dims=input_dims
+	self.rows = rows
+	self.cols = cols
+    def initBoard(self):
+	board=[]
+	for i in range(self.cols):
+		board.append([0]*self.rows)
+	return self.board
+class Valid:  
+    def isValidMove(self,gameId,gameState,action):
+	try:
+		if()
+		
+	except:
+		return False
+    def getMyPos(self,gameID,gameState):
+	return(x,y)
 
 
-
-
-        self.fc1 = nn.Linear(fc_input_dims, 512)            #fully connected layer
-                                                            # from fc_input dims to 512 units
-        self.fc2 = nn.Linear(512, n_actions)
-
-        self.optimizer = optim.RMSprop(self.parameters(), lr=lr)            #create optimizer
-
-        self.loss = nn.MSELoss()                            #Loss function -
-        self.device = T.device('cuda:0' if T.cuda.is_available() else 'cpu')
-        self.to(self.device)
-
-    def calculate_conv_output_dims(self, input_dims):
-        state = T.zeros(1, *input_dims)
-        dims = self.conv1(state)
-        dims = self.conv2(dims)
-        dims = self.conv3(dims)
-        return int(np.prod(dims.size()))
-
-    def forward(self, state):
-        conv1 = F.relu(self.conv1(state))
-        conv2 = F.relu(self.conv2(conv1))
-        conv3 = F.relu(self.conv3(conv2))
-        conv_state = conv3.view(conv3.size()[0], -1)
-
-        flat1 = F.relu(self.fc1(conv_state))
-        actions = self.fc2(flat1)
-
-        return actions
-
-    def save_checkpoint(self):
-        print('... saving checkpoint ...')
-        T.save(self.state_dict(), self.checkpoint_file)
-
-    def load_checkpoint(self):
-        print('... loading checkpoint ...')
-        self.load_state_dict(T.load(self.checkpoint_file))
-
-class DuelingDeepQNetwork(nn.Module):
-    def __init__(self, lr, n_actions, name, input_dims, chkpt_dir):
-        super(DuelingDeepQNetwork, self).__init__()
-
-        self.checkpoint_dir = chkpt_dir
-        self.checkpoint_file = os.path.join(self.checkpoint_dir, name)
-
-        self.conv1 = nn.Conv2d(input_dims[0], 32, 8, stride=4)
-        self.conv2 = nn.Conv2d(32, 64, 4, stride=2)
-        self.conv3 = nn.Conv2d(64, 64, 3, stride=1)
-
-        fc_input_dims = self.calculate_conv_output_dims(input_dims)
-
-        self.fc1 = nn.Linear(fc_input_dims, 512)
-
-        self.V = nn.Linear(512, 1)
-        self.A = nn.Linear(512, n_actions)
-
-        self.optimizer = optim.RMSprop(self.parameters(), lr=lr)        #create optimizer
-        self.loss = nn.MSELoss()                                        #loss function
-        self.device = T.device('cuda:0' if T.cuda.is_available() else 'cpu')
-        self.to(self.device)
-
-    def calculate_conv_output_dims(self, input_dims):
-        state = T.zeros(1, *input_dims)
-        dims = self.conv1(state)
-        dims = self.conv2(dims)
-        dims = self.conv3(dims)
-        return int(np.prod(dims.size()))
-
-    def forward(self, state):
-        conv1 = F.relu(self.conv1(state))
-        conv2 = F.relu(self.conv2(conv1))
-        conv3 = F.relu(self.conv3(conv2))
-        conv_state = conv3.view(conv3.size()[0], -1)
-        flat1 = F.relu(self.fc1(conv_state))
-
-        V = self.V(flat1)
-        A = self.A(flat1)
-
-        return V, A
-
-    def save_checkpoint(self):
-        print('... saving checkpoint ...')
-        T.save(self.state_dict(), self.checkpoint_file)
-
-    def load_checkpoint(self):
-        print('... loading checkpoint ...')
-        self.load_state_dict(T.load(self.checkpoint_file))

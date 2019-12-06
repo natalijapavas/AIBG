@@ -27,4 +27,7 @@ for i in range(10):
 # building a house
 
 
+GAME_ID = 10
+PLAYER_ID = 2
+
 
