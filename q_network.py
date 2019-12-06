@@ -6,18 +6,12 @@ import torch.optim as optim         #optimizer (Adam,gradient)
 import numpy as np
 
 class DeepQNetwork(nn.Module):
-    def __init__(self, lr, n_actions, name, input_dims, chkpt_dir):
+    def __init__(self, lr, n_actions, name, input_dims, fc1_dims,fc2_dims):
         super(DeepQNetwork, self).__init__()
-        self.checkpoint_dir = chkpt_dir
-        self.checkpoint_file = os.path.join(self.checkpoint_dir, name)
+        self.input_dims=input_dims
 
-        self.conv1 = nn.Conv2d(input_dims[0], 32, 8, stride=4)      #2 dimential conv layer
-                                                                    #from input_dims[0] to 32 channels
-                                                                    #kernel size is 4
-        self.conv2 = nn.Conv2d(32, 64, 4, stride=2)
-        self.conv3 = nn.Conv2d(64, 64, 3, stride=1)
 
-        fc_input_dims = self.calculate_conv_output_dims(input_dims)
+
 
         self.fc1 = nn.Linear(fc_input_dims, 512)            #fully connected layer
                                                             # from fc_input dims to 512 units

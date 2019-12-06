@@ -19,4 +19,22 @@ def join_game(gameId, playerId):
     r = requests.get(URL+path, params=data)
     return r.json()
 
+def do_action(playerId, gameId, action):
+    path = '/doAction'
+    data = {'gameId':gameId,
+            'playerId':playerId,
+            'action': action}
+    r = requests.get(URL+path, params=data)
+    return r.json()
+
+def create_game(gameId,playerOne,playerTwo,mapConFig):
+    path = '/admin'
+    data = {'gameId': gameId,
+            'playerOne': playerOne,
+            'playerTwo': playerTwo,
+            'map_name' : mapConFig}
+    r = requests.get(URL+path, params=data)
+    return r.json()
+
+
 res = start_game('13')
