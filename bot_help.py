@@ -45,16 +45,17 @@ def move(x,y):
 
     if POSX is x and POSY is y:
         return 0
+
     if abs(POSX - x) >= abs(POSY - y):
 	if POSX - x > 0:
-            do_action('2','10','a')
+            do_action(2,10,'a')
 	else:
-            do_action('2','10','d')
+            do_action(2,10,'d')
     else:
         if POSY - y > 0:
-            do_action('2','10','w')
+            do_action(2,10,'w')
         else:
-            do_action('2','10','s')
+            do_action(2,10,'s')
 
     return abs(POSX - x) + abs(POSY - y)
 	
