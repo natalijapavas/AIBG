@@ -47,9 +47,9 @@ def move(x,y):
         return 0
 
     if abs(POSX - x) >= abs(POSY - y):
-	if POSX - x > 0:
+        if POSX - x > 0:
             do_action(2,10,'a')
-	else:
+        else:
             do_action(2,10,'d')
     else:
         if POSY - y > 0:
