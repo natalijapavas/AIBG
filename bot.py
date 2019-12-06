@@ -16,4 +16,7 @@ ACTIONS = [ 'w', 's', 'a', 'd',
 
 
 
+GAME_ID = 10
+PLAYER_ID = 2
+
 
