@@ -110,9 +110,9 @@ def obs_map(json_res):
     print(json_res.keys())
     tiles = json_res['result']['map']['tiles']
     map = list()
-    for i in range(json_res['result']['map']['height']):
+    for i in range(20):
         row = list()
-        for j in range(json_res['result']['map']['width']):
+        for j in range(25):
             if tiles[i][j]['item'] is 'null':
                 row[j] = 0
             else:
