@@ -2,12 +2,26 @@
 
 import requests
 import json
+import random
 
 URL = 'http://127.0.0.1:9080'
-GAME_ID = 1
+GAME_ID = 125
 POSX = 0
 POSY = 0
 PLAYER_ID=2
+
+MOVE = [ 'w', 's', 'a', 'd']
+TAKE_RESOURCES = ['trw', 'tws', 'twa', 'twd']
+TAKE_WEAPONS = ['tww', 'tws', 'twa', 'twd']
+LEAVE = ['lw', 'ls', 'lm']
+BUILD = ['bhw', 'bhs', 'bha', 'bhd',
+         'bfw', 'bfs', 'bfa', 'bfd',
+         'bshfw', 'bshfs', 'bshfa', 'bshfd',
+         'bsfw', 'bsfs', 'bsfa', 'bsfd',
+         'bafw', 'bafs', 'bafa', 'bafd']
+ATTACK = ['saw', 'sas', 'saa', 'sad',
+         'aaw', 'aas', 'aaa', 'aad', 'aawa', 'aawd', 'aasa', 'aasd']
+DROP = ['dsh']
 
 def start_game(playerId = PLAYER_ID):
     path = '/train/random'
@@ -46,6 +60,10 @@ def get_player_info(game_data):
     player_data  = game_data['result']['player'+str(PLAYER_INDEX)]
     return player_data
 
+def get_coords(player_data):
+    posx = player_data['x']
+    posy = player_data['y']
+    return posx, posy
 
 
 def move(x,y):
@@ -82,12 +100,35 @@ def obs_map(json_res):
         map.append(row)
     return map
 
+def calc_next_action(game_state):
+    return random.choice(MOVE)
 
-
-
+def get_tile_info(x,y, game_state):
+    tiles = game_state['result']['map']['tiles']
+    width = int(game_state['result']['map']['width'])
+    height = int(game_state['result']['map']['height'])
+    tile = tiles[y][x]
+    tile_item = tile['item']
+    if tile['item'] == None:
+        return True 
+    else:
+        return False
 
 def isValidMove(gameState, action):
-    map=obs_map(gameState)
+    p_data = get_player_info(gameState)
+    width = int(gameState['result']['map']['width'])
+    height = int(gameState['result']['map']['height'])
+    px, py = get_coords(p_data)
+    
+    if action == 'd':
+        return False if px + 1 > width else True
+    if action == 'a':
+        return False if px - 1 < 0 else True
+    if action == 'w':
+        return False if py + 1 > height else True
+    if action == 's':
+        return False if py - 1 < 0 else True
+
 
 def find(json_res, item):
     if item is 'w' or item is 'wood':
@@ -179,4 +220,5 @@ if __name__ == '__main__':
     # free zone
     tmp = join_game(60, 2)
     p_data = get_player_info(tmp)
-    print(p_data)
+    x, y= get_coords(p_data)
+    print(get_tile_info( x, y, tmp))
