@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
 
 import requests
+import json
 
 URL = 'http://127.0.0.1:9080'
 GAME_ID = 1
 POSX = 0
 POSY = 0
 PLAYER_ID=2
-def start_game(playerId = PLAYERID):
+
+def start_game(playerId = PLAYER_ID):
     path = '/train/random'
     data = {'playerId': playerId}
     print(URL + path)
@@ -38,6 +40,14 @@ def create_game(gameId,playerOne,playerTwo,mapConFig):
     r = requests.get(URL+path, params=data)
     return r.json()
 
+def get_player_info(game_data):
+    global PLAYER_INDEX 
+    PLAYER_INDEX = game_data['playerIndex'] 
+    player_data  = game_data['result']['player'+str(PLAYER_INDEX)]
+    return player_data
+
+
+
 def move(x,y):
     global POSX
     global POSY
@@ -59,9 +69,9 @@ def move(x,y):
  
 
 def obs_map(json_res):
+    print(json_res.keys())
     tiles = json_res['result']['map']['tiles']
     map = list()
-
     for i in range(json_res['result']['map']['height']):
         row = list()
         for j in range(json_res['result']['map']['width']):
@@ -70,8 +80,9 @@ def obs_map(json_res):
             else:
                 row[j] = 1
         map.append(row)
-
     return map
+
+
 
 
 
@@ -155,3 +166,17 @@ def build(json_res):
 
     return do_action(2,10,'bfa')
 
+if __name__ == '__main__':
+    print('testing')
+    gid = 1
+    connResp = create_game(gid, 1,2,'mapConfig')
+    while connResp['success'] == False:
+        print(connResp['success'])
+        gid += 1
+        connResp = create_game(gid, 1, 2, 'mapConfig')
+    print('[+] game created')
+    # testing stuff
+    # free zone
+    tmp = join_game(60, 2)
+    p_data = get_player_info(tmp)
+    print(p_data)

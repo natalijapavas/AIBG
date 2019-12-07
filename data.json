@@ -1,0 +1,3202 @@
+testing
+False
+False
+False
+False
+False
+[+] game created
+{
+    "success": true,
+    "result": {
+        "winner": null,
+        "id": 60,
+        "nextPlayer": 1,
+        "map": {
+            "height": 20,
+            "width": 25,
+            "tiles": [
+                [
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": {
+                            "value": 10,
+                            "itemType": "WOOD_SHOP",
+                            "x": 23,
+                            "y": 0,
+                            "empty": false
+                        },
+                        "buildingInProcess": false,
+                        "shop": true,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    }
+                ],
+                [
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    }
+                ],
+                [
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": {
+                            "value": 10,
+                            "itemType": "METAL_SHOP",
+                            "x": 11,
+                            "y": 2,
+                            "empty": false
+                        },
+                        "buildingInProcess": false,
+                        "shop": true,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    }
+                ],
+                [
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": {
+                            "value": 10,
+                            "itemType": "STONE_SHOP",
+                            "x": 22,
+                            "y": 3,
+                            "empty": false
+                        },
+                        "buildingInProcess": false,
+                        "shop": true,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    }
+                ],
+                [
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    }
+                ],
+                [
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    }
+                ],
+                [
+                    {
+                        "item": {
+                            "value": 10,
+                            "itemType": "STONE_SHOP",
+                            "x": 0,
+                            "y": 6,
+                            "empty": false
+                        },
+                        "buildingInProcess": false,
+                        "shop": true,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": {
+                            "value": 10,
+                            "itemType": "WOOD_SHOP",
+                            "x": 18,
+                            "y": 6,
+                            "empty": false
+                        },
+                        "buildingInProcess": false,
+                        "shop": true,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    }
+                ],
+                [
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    }
+                ],
+                [
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": {
+                            "value": 10,
+                            "itemType": "METAL_SHOP",
+                            "x": 8,
+                            "y": 8,
+                            "empty": false
+                        },
+                        "buildingInProcess": false,
+                        "shop": true,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    }
+                ],
+                [
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    }
+                ],
+                [
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    }
+                ],
+                [
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": {
+                            "value": 10,
+                            "itemType": "METAL_SHOP",
+                            "x": 16,
+                            "y": 11,
+                            "empty": false
+                        },
+                        "buildingInProcess": false,
+                        "shop": true,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    }
+                ],
+                [
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    }
+                ],
+                [
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": {
+                            "value": 10,
+                            "itemType": "WOOD_SHOP",
+                            "x": 6,
+                            "y": 13,
+                            "empty": false
+                        },
+                        "buildingInProcess": false,
+                        "shop": true,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": {
+                            "value": 10,
+                            "itemType": "STONE_SHOP",
+                            "x": 24,
+                            "y": 13,
+                            "empty": false
+                        },
+                        "buildingInProcess": false,
+                        "shop": true,
+                        "entity": false
+                    }
+                ],
+                [
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    }
+                ],
+                [
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    }
+                ],
+                [
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": {
+                            "value": 10,
+                            "itemType": "STONE_SHOP",
+                            "x": 2,
+                            "y": 16,
+                            "empty": false
+                        },
+                        "buildingInProcess": false,
+                        "shop": true,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    }
+                ],
+                [
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": {
+                            "value": 10,
+                            "itemType": "METAL_SHOP",
+                            "x": 13,
+                            "y": 17,
+                            "empty": false
+                        },
+                        "buildingInProcess": false,
+                        "shop": true,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    }
+                ],
+                [
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    }
+                ],
+                [
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": {
+                            "value": 10,
+                            "itemType": "WOOD_SHOP",
+                            "x": 1,
+                            "y": 19,
+                            "empty": false
+                        },
+                        "buildingInProcess": false,
+                        "shop": true,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    },
+                    {
+                        "item": null,
+                        "buildingInProcess": false,
+                        "shop": false,
+                        "entity": false
+                    }
+                ]
+            ]
+        },
+        "player1": {
+            "id": 1,
+            "x": 0,
+            "y": 0,
+            "health": 100,
+            "initX": 0,
+            "initY": 0,
+            "lives": 5,
+            "kills": 0,
+            "score": 0,
+            "weapon1": null,
+            "weapon2": null,
+            "stupidMoves": 9,
+            "resources": {
+                "WOOD": 0,
+                "METAL": 0,
+                "STONE": 0
+            },
+            "notFinishedBuildings": [],
+            "buildings": [],
+            "stringType": "Player"
+        },
+        "player2": {
+            "id": 2,
+            "x": 24,
+            "y": 19,
+            "health": 100,
+            "initX": 24,
+            "initY": 19,
+            "lives": 5,
+            "kills": 0,
+            "score": 0,
+            "weapon1": null,
+            "weapon2": null,
+            "stupidMoves": 10,
+            "resources": {
+                "WOOD": 0,
+                "METAL": 0,
+                "STONE": 0
+            },
+            "notFinishedBuildings": [],
+            "buildings": [],
+            "stringType": "Player"
+        },
+        "turn": 3999,
+        "nextPlayerObject": {
+            "id": 2,
+            "x": 24,
+            "y": 19,
+            "health": 100,
+            "initX": 24,
+            "initY": 19,
+            "lives": 5,
+            "kills": 0,
+            "score": 0,
+            "weapon1": null,
+            "weapon2": null,
+            "stupidMoves": 10,
+            "resources": {
+                "WOOD": 0,
+                "METAL": 0,
+                "STONE": 0
+            },
+            "notFinishedBuildings": [],
+            "buildings": [],
+            "stringType": "Player"
+        }
+    },
+    "playerIndex": 2
+}
+...
