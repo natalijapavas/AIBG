@@ -9,6 +9,7 @@ GAME_ID = 125
 POSX = 0
 POSY = 0
 PLAYER_ID=2
+OBS_MAP = list()
 
 MOVE = [ 'w', 's', 'a', 'd']
 TAKE_RESOURCES = ['trw', 'tws', 'twa', 'twd']
@@ -69,30 +70,69 @@ def get_coords(player_data):
 def move(x,y):
     global POSX
     global POSY
+    global OBS_MAP
 
     if POSX is x and POSY is y:
         return 0
 
     if abs(POSX - x) >= abs(POSY - y):
         if POSX - x > 0:
+            if OBS_MAP[POSX-1][POSY] is 1:
+                if POSY is y:
+                    if POSX - x is 1:
+                        return 1
+                    if y is 0:
+                        return move(POSX,POSY+1)
+                    else:
+                        return move(POSX,POSY-1)
+                else:
+                    return move(POSX,y)
             return 'a'
         else:
+            if OBS_MAP[POSX+1][POSY] is 1:
+                if POSY is y:
+                    if POSX + x is 1:
+                        return 1
+                    if y is 0:
+                        return move(POSX,POSY+1)
+                    else:
+                        return move(POSX,POSY-1)
+                else:
+                    return move(POSX,y)
             return 'd'
     else:
         if POSY - y > 0:
+            if OBS_MAP[POSX][POSY-1] is 1:
+                if POSX is x:
+                    if POSY - y is 1:
+                        return 1
+                    if x is 0:
+                        return move(POSX+1,POSY)
+                    else:
+                        return move(POSX-1,POSY)
+                else:
+                    return move(x,POSY)
             return 'w'
         else:
+            if OBS_MAP[POSX][POSY+1] is 1:
+                if POSX is x:
+                    if POSY + y is 1:
+                        return 1
+                    if x is 0:
+                        return move(POSX+1,POSY)
+                    else:
+                        return move(POSX-1,POSY)
+                else:
+                    return move(x,POSY)
             return 's'
-
- 
 
 def obs_map(json_res):
     print(json_res.keys())
     tiles = json_res['result']['map']['tiles']
     map = list()
-    for i in range(json_res['result']['map']['height']):
+    for i in range(25):
         row = list()
-        for j in range(json_res['result']['map']['width']):
+        for j in range(20):
             if tiles[i][j]['item'] is 'null':
                 row[j] = 0
             else:
@@ -217,6 +257,9 @@ if __name__ == '__main__':
         connResp = create_game(gid, 1, 2, 'mapConfig')
     print('[+] game created')
     # testing stuff
+    OBS_MAP = obs_map(connResp)
+    while move(5,5) is not 1 or move(5,5) is not 0:
+        obs_map(do_action(gid,PLAYER_ID,move(5,5)))
     # free zone
     tmp = join_game(60, 2)
     p_data = get_player_info(tmp)
